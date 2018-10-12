@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "ignore": ["build", "elm-stuff", "node_modules", "index.html"],
+  "execMap": {
+    "elm": "elm make --debug --output=build/main.js"
+  }
+}
